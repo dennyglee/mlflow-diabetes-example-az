@@ -49,7 +49,7 @@ import mlflow
 import mlflow.sklearn
 
 # Set the tracking UI
-mlflow_tracking_URI = 'http://104.210.54.173:5000/'
+mlflow_tracking_URI = 'http://104.210.54.173:5000'
 mlflow.set_tracking_uri(mlflow_tracking_URI)
 
 # Evaluate metrics
